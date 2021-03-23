@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: purple;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  display: grid;
+}
+
+#container{
+  width: 550px;
+  height: 500px;
+  background: yellow;
+}
+
+#number{
+  margin-top: 200px;
+  place-items: center;
+  display: grid;
+}
+
+#num{
+  display: flex;
+}
+
+.in{
+  transition: 0.5s all;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 24px;
+  padding: 10px;
+  margin: 20px 30px;
+}
+#counter{
+  font-size: 40px;
+}
+.in:hover{
+    background: blue;
+    color: red;
+}
